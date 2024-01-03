@@ -8,41 +8,43 @@ import { SkeletonBase } from '@/components/SkeletonBase/SkeletonBase';
 
 import styles from './SectionSponsors.module.css';
 
+const appUrl = import.meta.env.VITE_APP_URL;
+
 const dataSponsors = [
   {
     order: 0,
     title: 'Oferecimento',
     items: [
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
     ],
   },
   {
     order: 1,
     title: 'Patrocinio',
     items: [
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
     ],
   },
   {
     order: 2,
     title: 'Apoio',
     items: [
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
-      { name: 'Lorem Ip', thumb: '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
+      { name: 'Lorem Ip', thumb: appUrl + '/assets/images/mock_brand.jpg', link: 'https://google.com' },
       
   ],
   },

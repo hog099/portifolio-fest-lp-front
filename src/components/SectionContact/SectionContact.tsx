@@ -6,6 +6,8 @@ import { HomeAppContext } from '@/contexts/homeAppContext';
 import { SkeletonBase } from '@/components/SkeletonBase/SkeletonBase';
 import styles from './SectionContact.module.css';
 
+const appUrl = import.meta.env.VITE_APP_URL;
+
 export const SectionContact: React.FC = () => {
   const { loading } = useContext(HomeAppContext);
 
@@ -52,7 +54,7 @@ export const SectionContact: React.FC = () => {
                 height={350}
                 className={styles['thumb-logo']}
                 alt="image-menu"
-                src={'/assets/images/logo.png'}
+                src={appUrl+'/assets/images/logo.png'}
               />
             </div>
             <div className="flex flex-col">

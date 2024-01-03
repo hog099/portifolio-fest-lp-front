@@ -13,10 +13,13 @@ import { HomeAppContext } from '@/contexts/homeAppContext';
 import { SkeletonBase } from '@/components/SkeletonBase/SkeletonBase';
 import Skeleton from 'react-loading-skeleton';
 
+const appUrl = import.meta.env.VITE_APP_URL;
+
+
 const carrouselList = [
-  { src: '/assets/images/mock_banner.jpg' },
-  { src: '/assets/images/mock_banner.jpg' },
-  { src: '/assets/images/mock_banner.jpg' },
+  { src: appUrl + '/assets/images/mock_banner.jpg' },
+  { src: appUrl + '/assets/images/mock_banner.jpg' },
+  { src: appUrl + '/assets/images/mock_banner.jpg' },
 ];
 
 export const CarrouselHeader: React.FC = () => {
