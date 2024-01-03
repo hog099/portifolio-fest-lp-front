@@ -1,8 +1,9 @@
 {
-  "name": "lp-fest",
+  "name": "portifolio-fest-lp-front",
   "private": true,
   "version": "0.0.0",
   "type": "commonjs",
+  "homepage": "http://hog099.github.io/portifolio-fest-lp-front",
   "scripts": {
     "dev": "vite",
     "build": "rm -rf dist && tsc && vite build",
