@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { RoutesApp } from "./routes";
+// import { RoutesApp } from "./routes";
 import { Toaster } from "react-hot-toast";
 
 import AOS from 'aos';
@@ -12,6 +12,7 @@ import "./styles/styles.css";
 import "./styles/tailwind.css";
 import 'react-loading-skeleton/dist/skeleton.css'
 import 'aos/dist/aos.css';
+import { HomeApp } from "./screens/Home/HomeApp";
 
 
 
@@ -33,7 +34,7 @@ export const App: React.FC = () => {
       <AuthProvider>
         <HomeAppProvider>
         <Toaster />
-        <RoutesApp />
+        <HomeApp />
         </HomeAppProvider>
       </AuthProvider>
     </Router>
