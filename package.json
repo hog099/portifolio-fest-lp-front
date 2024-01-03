@@ -3,7 +3,7 @@
   "private": false,
   "version": "1.0.0",
   "type": "commonjs",
-  "homepage": "http://hog099.github.io/portifolio-fest-lp-front",
+  "homepage": "https://hog099.github.io/portifolio-fest-lp-front",
   "scripts": {
     "dev": "vite",
     "build": "rm -rf dist && tsc && vite build",
