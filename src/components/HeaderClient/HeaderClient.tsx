@@ -8,6 +8,8 @@ import styles from './HeaderClient.module.css';
 import { SkeletonBase } from '@/components/SkeletonBase/SkeletonBase';
 import Skeleton from 'react-loading-skeleton';
 
+const appUrl = import.meta.env.VITE_APP_URL;
+
 export const HeaderClient: React.FC = () => {
   const { loading } = useContext(HomeAppContext);
 
@@ -51,7 +53,7 @@ export const HeaderClient: React.FC = () => {
                     data-aos-delay="300"
                     key={menu?.id}
                     className={`object-cover`}
-                    src={`/assets/images/logo.png`}
+                    src={appUrl+`/assets/images/logo.png`}
                     width={80}
                     height={80}
                     alt="image"
