@@ -19,6 +19,8 @@
 
 Este projeto é uma aplicação ReactJS, typescript e css modules, criacao de uma LP (landing Page) de um festival, o objetivo e ter informações do evento como programação e informações gerais, trabalhando com sessões das mesmas e ancoragem para os links.
 
+Preview: https://hog099.github.io/portifolio-fest-lp-front
+
 
 
 ## 🧪 Tecnologias
