@@ -6,8 +6,6 @@ import { ScheduleEvent } from '@/components/ScheduleEvent/ScheduleEvent';
 import { SectionNews } from '@/components/SectionNews/SectionNews';
 import { SectionMenuProd } from '@/components/SectionMenuProd/SectionMenuProd';
 import { SectionSponsors } from '@/components/SectionSponsors/SectionSponsors';
-import { SectionInLive } from '@/components/SectionInLive/SectionInLive';
-import { SectionSubscription } from '@/components/SectionSubscription/SectionSubscription';
 import { SectionContact } from '@/components/SectionContact/SectionContact';
 
 export const HomeApp: React.FC = () => {
@@ -29,9 +27,9 @@ export const HomeApp: React.FC = () => {
 
       <SectionSponsors />
 
-      <SectionInLive />
+      {/* <SectionInLive /> */}
 
-      <SectionSubscription />
+      {/* <SectionSubscription /> */}
 
       <SectionContact />
     </div>
