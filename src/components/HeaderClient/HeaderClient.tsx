@@ -83,7 +83,7 @@ export const HeaderClient: React.FC = () => {
               data-aos="zoom-in"
               data-aos-delay="300"
               className={`object-cover`}
-              src={`/assets/images/logo.png`}
+              src={appUrl+`/assets/images/logo.png`}
               width={80}
               height={80}
               alt="image"
