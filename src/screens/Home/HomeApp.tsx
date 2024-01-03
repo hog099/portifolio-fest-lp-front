@@ -4,7 +4,6 @@ import { CarrouselHeader } from '@/components/CarrouselHeader/CarrouselHeader';
 import { SectionAbout } from '@/components/SectionAbout/SectionAbout';
 import { ScheduleEvent } from '@/components/ScheduleEvent/ScheduleEvent';
 import { SectionNews } from '@/components/SectionNews/SectionNews';
-import { SectionMenuProd } from '@/components/SectionMenuProd/SectionMenuProd';
 import { SectionSponsors } from '@/components/SectionSponsors/SectionSponsors';
 import { SectionContact } from '@/components/SectionContact/SectionContact';
 
@@ -23,7 +22,7 @@ export const HomeApp: React.FC = () => {
 
       <SectionNews />
 
-      <SectionMenuProd />
+      {/* <SectionMenuProd /> */}
 
       <SectionSponsors />
 
